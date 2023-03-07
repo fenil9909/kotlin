@@ -14,12 +14,12 @@
 
 fun main(){
 
-    calculate(5,7,::add,::subtract,::mulitply,::divide)
+    calculate(5,7,::add8,::subtract,::mulitply,::divide)
 }
 
 
 
-fun add(a:Int,b:Int):Int{
+fun add8(a:Int,b:Int):Int{
     return a+b
 }
 
